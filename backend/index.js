@@ -2,7 +2,7 @@ import express from 'express'
 import cors from 'cors';
 import connectDB from './db/index.js'
 import dotenv from 'dotenv';
-import { adminAuth } from './firebase.js';
+import { adminAuth } from './Firebase.js';
 
 dotenv.config({
     path: './.env'
